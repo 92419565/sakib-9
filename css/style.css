@@ -1,0 +1,69 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: mdsalim400@gmail.com
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap');
+.nav-area{
+	position:relative;
+}
+.nav-area::before{
+	position:absolute;
+	content:'';
+	width:100%;
+	height:1px;
+	background:gray;
+	bottom:0;
+}
+.tab-area ul li a{
+	position:relative;
+}
+.tab-area ul li a::before{
+	position:absolute;
+	content:'';
+	width:100%;
+	height:2px;
+	background:red;
+	bottom:0;
+	left:0;
+	opacity:0;
+	
+}
+
+.tab-area ul li a:hover::before{
+	opacity:1;
+}
+.tab-area p{
+	font-size:20px;
+}
+.tab-area1{
+		background-image:url('p-8.jpg');
+		background-position:center;
+		background-size:cover;
+		
+}
+.tab-area1 p{
+	font-size:20px;
+	color:red;
+	text-align:center;
+}
